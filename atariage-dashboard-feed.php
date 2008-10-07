@@ -30,9 +30,9 @@ The license is also available at http://www.gnu.org/copyleft/gpl.html
 *********************************************************************************/
  
 // Register Dashboard Widget
-add_action('wp_dashboard_setup', 'AtariAgeRSS_register_dashboard_widget');
-function AtariAgeRSS_register_dashboard_widget() {
-	wp_register_sidebar_widget('dashboard_AtariAgeRSS', __('AtariAge Dashboard Feed', 'AtariAgeRSS'), 'dashboard_AtariAgeRSS',
+add_action('wp_dashboard_setup', 'atariage_register_dashboard_widget');
+function atariage_register_dashboard_widget() {
+	wp_register_sidebar_widget('dashboard_atariage', __('AtariAge Dashboard Feed', 'atariage'), 'dashboard_atariage',
 		array(
 		'all_link' => "http://www.AtariAge.com", 
 		'feed_link' => "http://www.AtariAge.com/news/rss.php", 
@@ -40,21 +40,26 @@ function AtariAgeRSS_register_dashboard_widget() {
 		'height' => 'single', // OR 'single', 'double' (Default: 'single')
 		)
 	);
+add_action('admin_head', 'atariage_head');
+}
+
+function atariage_head() {
+	echo '<link href="'.get_bloginfo('siteurl').'/wp-content/plugins/atariage-dashboard-feed/css/aaStyle.css" rel="stylesheet" type="text/css" />'."\n";
 }
  
 // Add Dashboard Widget
-add_filter('wp_dashboard_widgets', 'AtariAgeRSS_add_dashboard_widget');
-function AtariAgeRSS_add_dashboard_widget($widgets) {
+add_filter('wp_dashboard_widgets', 'atariage_add_dashboard_widget');
+function atariage_add_dashboard_widget($widgets) {
 	global $wp_registered_widgets;
-	if (!isset($wp_registered_widgets['dashboard_AtariAgeRSS'])) {
+	if (!isset($wp_registered_widgets['dashboard_atariage'])) {
 		return $widgets;
 	}
-	array_splice($widgets, sizeof($widgets)-1, 0, 'dashboard_AtariAgeRSS');
+	array_splice($widgets, sizeof($widgets)-1, 0, 'dashboard_atariage');
 	return $widgets;
 }
  
 // Print Dashboard Widget
-function dashboard_AtariAgeRSS($sidebar_args) {
+function dashboard_atariage($sidebar_args) {
 	global $wpdb;
 	$tech_rss_feed = "http://www.AtariAge.com/news/rss.php";
 	extract($sidebar_args, EXTR_SKIP);
@@ -62,6 +67,7 @@ function dashboard_AtariAgeRSS($sidebar_args) {
 	echo $before_title;
 	echo $widget_name;
 	echo $after_title;
+	echo "<div id='identity'></div>";
 	echo "<ul>";
 	$rss = @fetch_rss($tech_rss_feed);
 	$rss->items = array_slice($rss->items, 0, 20);

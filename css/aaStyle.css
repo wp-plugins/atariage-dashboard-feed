@@ -1,7 +1,7 @@
 /* CSS Document */
 #dashboard_atariage #identity {
-   width: 52px;
-   height: 52px;
+   width: 33px;
+   height: 33px;
    position: absolute;
    top: 0;
    left: 0;
@@ -18,11 +18,12 @@
    }
    
 #dashboard_atariage .pubdate {
-   margin: -10px 0 0 0;
+   margin: -10px 0 0;
+   *margin: 0; /* IE7 */
    font-weight: bold;
    }
    
-#dashboard_atariage ul li a {  
+#dashboard_atariage ul li a { 
    font-weight: bold;
    text-decoration: none;
    text-transform: uppercase;

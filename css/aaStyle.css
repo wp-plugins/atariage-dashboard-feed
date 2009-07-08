@@ -1,0 +1,38 @@
+/* CSS Document */
+#dashboard_atariage #identity {
+   width: 33px;
+   height: 33px;
+   position: absolute;
+   top: -39px;
+   left: -8px;
+   background: url(../images/aa.png) no-repeat 5px 5px;
+   }
+   
+#dashboard_atariage h3.hndle span {
+   padding: 6px 0 6px 35px;
+   }
+   
+#dashboard_atariage small {
+   padding-right: 10px;
+   }
+   
+#dashboard_atariage .pubdate {
+   margin: -5px 0 0;
+   *margin: 0; /* IE7 */
+   font-weight: bold;
+   }
+   
+#dashboard_atariage ul li a { 
+   font-weight: bold;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-size: 13px;
+   }
+   
+#dashboard_atariage ul li a:hover { 
+   color: #FF6600;
+   }
+   
+#dashboard_atariage p {  
+   margin-bottom: 20px;
+   }

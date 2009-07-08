@@ -1,10 +1,10 @@
 <?php
 /*
 Plugin Name: AtariAge Dashboard Feed
-Plugin URI: http://www.wordpress.org/#
-Description: Add AtariAge RSS Feed to your WordPress Dashboard
+Plugin URI: http://www.doc4design.com/plugins/atariage-dashboard-feed
+Description: Add the AtariAge RSS Feed to your WordPress Dashboard
+Version: 1.2
 Author: Doc4
-Version: .6
 Author URI: http://www.doc4design.com
 */
 
@@ -44,7 +44,7 @@ add_action('admin_head', 'atariage_head');
 }
 
 function atariage_head() {
-	echo '<link href="'.get_bloginfo('siteurl').'/wp-content/plugins/atariage-dashboard-feed/css/aaStyle.css" rel="stylesheet" type="text/css" />'."\n";
+	echo '<link href="'.get_bloginfo('siteurl').'/wp-content/plugins/d4-atariage.feed/css/aaStyle.css" rel="stylesheet" type="text/css" />'."\n";
 }
  
 // Add Dashboard Widget
@@ -70,7 +70,7 @@ function dashboard_atariage($sidebar_args) {
 	echo "<div id='identity'></div>";
 	echo "<ul>";
 	$rss = @fetch_rss($tech_rss_feed);
-	$rss->items = array_slice($rss->items, 0, 20);
+	$rss->items = array_slice($rss->items, 0, 3);
 	foreach ($rss->items as $item ) {
 		$parsed_url = parse_url(wp_filter_kses($item['link']));
 		echo "<li><a href=" . wp_filter_kses($item['link']) . ">" . wptexturize(wp_specialchars($item['title'])) . "</a></li>";

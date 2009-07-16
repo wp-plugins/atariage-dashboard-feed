@@ -3,8 +3,8 @@ Contributors: Doc4
 Donate link: http://www.doc4design.com/donate
 Tags: plugin, fun, entertainment, atari, atariage, video games, gaming, retro video games, homebrew video games, atari age, albert yarusso, feed, feeds, rss, simple syndication
 Requires at least: 2.7
-Tested up to: 2.8
-Stable tag: 1.2
+Tested up to: 2.8.1
+Stable tag: 1.8
 
 AtariAge Dashboard Feed
 
@@ -25,9 +25,10 @@ http://www.doc4design.com/plugins/atariage-dashboard-feed
 
 == Updates ==
 
+* Updated for WordPress 2.8.1
+* Small adjustments to get the feed working again across all WordPress versions
 * Adjusted the overlapping publication date text for users of Internet Explorer.
-
-* Updated for Wordpress 2.7
+* Updated for WordPress 2.7
 
 
 
@@ -46,10 +47,15 @@ To install the plugin just follow these simple steps:
 
 == Frequently Asked Questions ==
 
-= What does the "See All" link do? =
+= What does the "View All" link do? =
 
 It is a direct link to the Home Page of AtariAge
 
-= I'm not using Wordpress 2.7 yet!
+= I'm not using Wordpress 2.7+ yet!
 
 Please delete the file "aaStyle.css" within the "css" folder. Then rename the file labeled "aaStyle-alternate.css" to "aaStyle.css".
+
+
+== Screenshots ==
+
+[http://www.doc4design.com/plugins/atariage-dashboard-feed]

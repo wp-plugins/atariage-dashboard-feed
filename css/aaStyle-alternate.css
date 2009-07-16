@@ -1,5 +1,5 @@
 /* CSS Document */
-#dashboard_atariage #identity {
+#dashboard_AtariAge #identity {
    width: 33px;
    height: 33px;
    position: absolute;
@@ -8,28 +8,28 @@
    background: url(../images/aa.png) no-repeat 5px 5px;
    }
    
-#dashboard_atariage h3.dashboard-widget-title {
+#dashboard_AtariAge h3.dashboard-widget-title {
    padding: 0 0 0 55px;
    margin-bottom: 20px;
    }
    
-#dashboard_atariage small {
+#dashboard_AtariAge small {
    padding-right: 10px;
    }
    
-#dashboard_atariage .pubdate {
+#dashboard_AtariAge .pubdate {
    margin: -10px 0 0;
    *margin: 0; /* IE7 */
    font-weight: bold;
    }
    
-#dashboard_atariage ul li a { 
+#dashboard_AtariAge ul li a { 
    font-weight: bold;
    text-decoration: none;
    text-transform: uppercase;
    font-size: 13px;
    }
    
-#dashboard_atariage p {  
+#dashboard_AtariAge p {  
    margin-bottom: 20px;
    }

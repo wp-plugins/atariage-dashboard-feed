@@ -54,8 +54,3 @@ It is a direct link to the Home Page of AtariAge
 = I'm not using Wordpress 2.7+ yet!
 
 Please delete the file "aaStyle.css" within the "css" folder. Then rename the file labeled "aaStyle-alternate.css" to "aaStyle.css".
-
-
-== Screenshots ==
-
-[http://www.doc4design.com/plugins/atariage-dashboard-feed]

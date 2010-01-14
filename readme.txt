@@ -40,7 +40,7 @@ http://www.doc4design.com/plugins/atariage-dashboard-feed
 To install the plugin just follow these simple steps:
 
 1. Download the plugin and expand it.
-2. Copy the d4-atariage.feed folder into your plugins folder ( wp-content/plugins ).
+2. Copy the atariage-dashboard-feed folder into your plugins folder ( wp-content/plugins ).
 3. Log-in to the WordPress administration panel and visit the Plugins page.
 4. Locate the AtariAge Dashboard Feed plugin and click on the activate link.
 5. Visit the Wordpress Dashboard to view the RSS feeds

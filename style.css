@@ -1,0 +1,54 @@
+/* CSS Document */
+#dashboard_AtariAge #identity,
+#dashboard_AtariAge #identity-configure {
+   width: 33px;
+   height: 33px;
+   position: absolute;
+   left: -8px;
+   background: url(favicon.png) no-repeat 5px 5px;
+   }
+   
+#dashboard_AtariAge #identity {
+   top: -49px;
+   }
+   
+#dashboard_AtariAge #identity-configure {
+   top: -39px;
+   }
+   
+#dashboard_AtariAge h3.hndle span {
+   padding:  0 6px 0 35px;
+   }
+   
+#dashboard_AtariAge small {
+   padding-right: 10px;
+   }
+   
+#dashboard_AtariAge .rss-date {
+   margin: 2px 0 0;
+   *margin: 0; /* IE7 */
+   color: #666;
+   font: normal 10px "Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif
+   }
+
+#dashboard_AtariAge ul {
+   margin: 20px 0 0;
+   }
+   
+#dashboard_AtariAge ul li p {
+   margin: 10px 0 25px;
+   line-height: 1.6em;
+   }
+   
+#dashboard_AtariAge ul li a {
+   text-decoration: none;
+   font: normal 13px Georgia,"Times New Roman","Bitstream Charter",Times,serif
+   }
+   
+#dashboard_AtariAge ul li a:hover { 
+   color: #FF6600;
+   }
+   
+#dashboard_AtariAge #button {
+   padding: 15px 0;
+   }

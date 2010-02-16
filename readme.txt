@@ -12,6 +12,11 @@ AtariAge Dashboard Feed
 
 Based on the excellent plugin "Techorati Incoming Links" by Alberto Varela, we have modified this plugin to display the AtariAge RSS (Really Simple Syndication) Feed directly within your WordPress Admin Dashboard. 
 
+With the release of version 2.0 we have upgraded the overall appearance to more effectively match the look of WordPress 2.9 and we have included an optional configuration panel. Options include:
+* Number of items to display
+* Remove the post date
+* Remove the excerpt
+
 We have a great respect for AtariAge, and everything Atari for that matter, but there isn't enough time during the busy work week to check in with the site as we would like. To reconcile this issue we took a look at the increasing amount of web design involving WordPress and thought it was only logical to add the AtariAge RSS feed to our development sites. We took Alberto Varela's plugin, modified it, and added a little extra flair such as: the article's publication date, full content, and a fancy AtariAge icon to finalize the look.
 
 WordPress 2.7 users please download version 1.0.

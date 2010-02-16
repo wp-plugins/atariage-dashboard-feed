@@ -53,7 +53,7 @@ function dashboard_AtariAge() {
                  }
 
                  if($widget_options['showexcerpt']) {
-	                $trlink .=  "<p>" . wptexturize(wp_specialchars(substr(strip_tags($item['description']), 0,10000) )) . "...</p>";
+	                $trlink .=  "<p>" . wptexturize(wp_specialchars(substr(strip_tags($item['description']), 0,350) )) . "...</p>";
                  }
                 
                  echo '<p>';

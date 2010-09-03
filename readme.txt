@@ -10,6 +10,9 @@ AtariAge Dashboard Feed
 
 == Description ==
 
+= Plugin URL =
+http://www.doc4design.com/plugins/atariage-dashboard-feed/
+
 Based on the excellent plugin "Techorati Incoming Links" by Alberto Varela, we have modified this plugin to display the AtariAge RSS (Really Simple Syndication) Feed directly within your WordPress Admin Dashboard. 
 
 With the release of version 2.0 we have upgraded the overall appearance to more effectively match the look of WordPress 2.9 and we have included an optional configuration panel. Options include:

@@ -67,7 +67,7 @@ function dashboard_AtariAge() {
                  } else {
 				 
                  echo '<p>' . __( 'This dashboard widget queries <a href="http://www.atariage.com">AtariAge</a> for their latest 
-				                   RSS (Really Simple Syndication) feed. Oddly enought, it has found none... yet. It\'s okay - Albert is surely working on it.', 'dashboard_AtariAge' ) . "</p>";
+				                   RSS (Really Simple Syndication) feed. Oddly enough, it hasn\'t found any... yet. It\'s okay - Albert is surely working on it.', 'dashboard_AtariAge' ) . "</p>";
 		         }
 		         echo '<p class="textright"><a class="button" href="http://www.atariage.com">'.__('View all').'</a></p>';
                  }

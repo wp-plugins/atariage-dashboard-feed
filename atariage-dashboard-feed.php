@@ -3,7 +3,7 @@
 Plugin Name: AtariAge Dashboard Feed
 Plugin URI: http://www.doc4design.com/plugins/atariage-dashboard-feed
 Description: Add the AtariAge RSS Feed to your WordPress Dashboard
-Version: 2.0
+Version: 2.5
 Author: Doc4
 Author URI: http://www.doc4design.com
 */
@@ -37,9 +37,8 @@ function dashboard_AtariAge() {
     $widget_options = dashboard_AtariAge_Options();
     $rss = fetch_rss($tech_rss_feed);
 	
-	
 	if ( !empty($rss->items) ) {
-	     echo "<div id='identity'></div>";
+	
 	     echo '<ul>';
          $rss->items = array_slice($rss->items, 0, $widget_options['items']);
          

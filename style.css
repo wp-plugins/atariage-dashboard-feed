@@ -1,15 +1,15 @@
 /* CSS Document */
 #dashboard_AtariAge #identity,
 #dashboard_AtariAge #identity-configure {
-   width: 33px;
-   height: 33px;
+   width: 40px;
+   height: 40px;
    position: absolute;
-   left: -8px;
+   left: -9px;
    background: url(favicon.png) no-repeat 5px 5px;
    }
    
 #dashboard_AtariAge #identity {
-   top: -49px;
+   top: -58px;
    }
    
 #dashboard_AtariAge #identity-configure {
@@ -17,7 +17,7 @@
    }
    
 #dashboard_AtariAge h3.hndle span {
-   padding:  0 6px 0 35px;
+   padding:  0 6px 0 0;
    }
    
 #dashboard_AtariAge small {
@@ -27,8 +27,8 @@
 #dashboard_AtariAge .rss-date {
    margin: 2px 0 0;
    *margin: 0; /* IE7 */
-   color: #666;
-   font: normal 10px "Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif
+   color: #999;
+   font: normal 12px sans-serif
    }
 
 #dashboard_AtariAge ul {

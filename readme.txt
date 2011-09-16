@@ -3,8 +3,8 @@ Contributors: Doc4
 Donate link: http://www.doc4design.com/donate
 Tags: plugin, fun, entertainment, atari, atariage, video games, gaming, retro video games, homebrew video games, atari age, albert yarusso, feed, feeds, rss, simple syndication
 Requires at least: 2.7
-Tested up to: 3.1
-Stable tag: 2.0
+Tested up to: 3.2.1
+Stable tag: 2.5
 
 AtariAge Dashboard Feed
 
@@ -15,10 +15,7 @@ http://www.doc4design.com/plugins/atariage-dashboard-feed/
 
 Based on the excellent plugin "Techorati Incoming Links" by Alberto Varela, we have modified this plugin to display the AtariAge RSS (Really Simple Syndication) Feed directly within your WordPress Admin Dashboard. 
 
-With the release of version 2.0 we have upgraded the overall appearance to more effectively match the look of WordPress 2.9 and we have included an optional configuration panel. Options include:
-* Number of posts to display
-* Remove the post date
-* Remove the excerpt
+Version 2.5 has only a few aesthetic changes attached to it. 
 
 We have a great respect for AtariAge, and everything Atari for that matter, but there isn't enough time during the busy work week to check in with the site as we would like. To reconcile this issue we took a look at the increasing amount of web design involving WordPress and thought it was only logical to add the AtariAge RSS feed to our development sites. We took Alberto Varela's plugin, modified it, and added a little extra flair such as: the article's publication date, full content, and a fancy AtariAge icon to finalize the look.
 
@@ -33,6 +30,7 @@ http://www.doc4design.com/plugins/atariage-dashboard-feed
 
 == Updates ==
 
+* Updated for WordPress 3.2.1
 * 2.0: Added a configure panel
 * 2.0: Truncated excerpts
 * Compatible with WordPress 2.9.1
@@ -60,7 +58,7 @@ To install the plugin just follow these simple steps:
 
 = What does the "View All" link do? =
 
-It is a direct link to the Home Page of AtariAge
+It is a direct link to atariage.com
 
 = I'm not using WordPress 2.7+ yet! =
 

@@ -25,10 +25,7 @@
    }
    
 #dashboard_AtariAge .rss-date {
-   margin: 2px 0 0;
-   *margin: 0; /* IE7 */
-   color: #999;
-   font: normal 12px sans-serif
+   color: #777;
    }
 
 #dashboard_AtariAge ul {
@@ -40,11 +37,6 @@
    line-height: 1.6em;
    }
    
-#dashboard_AtariAge ul li a {
-   text-decoration: none;
-   font: normal 13px Georgia,"Times New Roman","Bitstream Charter",Times,serif
-   }
-   
 #dashboard_AtariAge ul li a:hover { 
    color: #FF6600;
    }
@@ -52,3 +44,10 @@
 #dashboard_AtariAge #button {
    padding: 15px 0;
    }
+   
+#dashboard_AtariAge .floatit {
+	position: absolute;
+    right: 35px;
+    top: -67px;
+	}
+	

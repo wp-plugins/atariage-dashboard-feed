@@ -3,8 +3,8 @@ Contributors: Doc4
 Donate link: http://www.doc4design.com/donate
 Tags: plugin, fun, entertainment, atari, atariage, video games, gaming, retro video games, homebrew video games, atari age, albert yarusso, feed, feeds, rss, simple syndication
 Requires at least: 2.7
-Tested up to: 3.5
-Stable tag: 2.5.1
+Tested up to: 3.8.1
+Stable tag: 2.5.2
 
 AtariAge Dashboard Feed
 
@@ -25,16 +25,10 @@ http://www.doc4design.com/plugins/atariage-dashboard-feed
 
 == Updates ==
 
-* Updated for WordPress 3.2.1
-* 2.0: Added a configure panel
-* 2.0: Truncated excerpts
-* Compatible with WordPress 2.9.1
-* Updated for WordPress 2.8.2
-* Corrected css styles link
-* Updated for WordPress 2.8.1
-* Small adjustments to get the feed working again across all WordPress versions
-* Adjusted the overlapping publication date text for users of Internet Explorer.
-* Updated for WordPress 2.7
+* Updated for WordPress 3.8.1
+* Moved the AtariAge logo
+* Updated styles (fonts, colors, etc.)
+* Changed date format to match WordPress
 
 
 

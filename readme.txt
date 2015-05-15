@@ -3,8 +3,8 @@ Contributors: Doc4
 Donate link: http://www.doc4design.com/donate
 Tags: plugin, fun, entertainment, atari, atariage, video games, gaming, retro video games, homebrew video games, atari age, albert yarusso, feed, feeds, rss, simple syndication
 Requires at least: 2.7
-Tested up to: 3.8.1
-Stable tag: 2.5.2
+Tested up to: 4.2.2
+Stable tag: 2.6
 
 AtariAge Dashboard Feed
 
